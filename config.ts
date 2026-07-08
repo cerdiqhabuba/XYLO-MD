@@ -23,7 +23,7 @@ const defaults: Record<string, any> = {
   MODE: 'public',
   CREATOR: '2349133354644',
   OWNER_NUMBERS: ['2349133354644'],
-  BOT_NAME: '𝐗𝐘𝐋𝐎-𝐌𝐃',
+  BOT_NAME: 'Nyx-MD',
   FOOTER: '© 𝒑𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝑫𝒂𝒗𝒊𝒅𝑿𝑻𝒆𝒄𝒉',
   ANTIDELETE_MODE: 'off',
   ANTIDELETE_SCOPE: 'all',
@@ -42,7 +42,7 @@ const defaults: Record<string, any> = {
 
 let cache: ConfigCache = {}
 
-const SESSION_ID = process.env.SESSION_ID || ''
+const SESSION_ID = process.env.SESSION_ID || 'DAVE-S*F=NSLTUIMDKO1O'
 cache.SESSION_ID = SESSION_ID
 
 async function initConfig() {
